@@ -1,0 +1,51 @@
+:root{
+    --bs-primary-rgb: 36, 40, 50;
+    --bs-secondary-rgb: 36, 39, 44;
+}
+.btn-1,.btn-2,.btn-3,.btn-4,.btn-5,.btn-6,.btn-7,.my-img{
+    border: 2px solid #24272c;
+    box-shadow: -6px -6px 12px 0px rgba(77, 76, 82, 0.56), 6px 6px 15px 0px rgba(0, 0, 0, 0.41);
+}
+:active.btn-1{
+    border: 2px solid #24272c;
+    box-shadow: inset -6px -6px 12px 0px rgba(100, 94, 94, 0.5), inset 6px 6px 13px 0px rgba(0, 0, 0, 0.78);
+}
+:active.btn-2{
+    border: 2px solid #24272c;
+    box-shadow: inset -6px -6px 12px 0px rgba(100, 94, 94, 0.5), inset 6px 6px 13px 0px rgba(0, 0, 0, 0.78);
+}
+:active.btn-3{
+    border: 2px solid #24272c;
+    box-shadow: inset -6px -6px 12px 0px rgba(100, 94, 94, 0.5), inset 6px 6px 13px 0px rgba(0, 0, 0, 0.78);
+}
+:active.btn-4{
+    border: 2px solid #24272c;
+    box-shadow: inset -6px -6px 12px 0px rgba(100, 94, 94, 0.5), inset 6px 6px 13px 0px rgba(0, 0, 0, 0.78);
+}
+:active.btn-5{
+    border: 2px solid #24272c;
+    box-shadow: inset -6px -6px 12px 0px rgba(100, 94, 94, 0.5), inset 6px 6px 13px 0px rgba(0, 0, 0, 0.78);
+}
+:active.btn-6{
+    border: 2px solid #24272c;
+    box-shadow: inset -6px -6px 12px 0px rgba(100, 94, 94, 0.5), inset 6px 6px 13px 0px rgba(0, 0, 0, 0.78);
+}
+:active.btn-7{
+    border: 2px solid #24272c;
+    background-color: #7733FF;
+    box-shadow: inset -6px -6px 12px 0px rgba(100, 94, 94, 0.5), inset 6px 6px 13px 0px rgba(0, 0, 0, 0.78);
+}
+
+.profile {
+    overflow: hidden;
+    width: var(--width);
+    height: var(--height);
+    aspect-ratio: 1/1;
+    border-radius: var(--radius);
+}
+.shadow-1{
+    box-shadow: -6px -6px 12px 0px rgba(77, 76, 82, 0.56), 6px 6px 15px 0px rgba(0, 0, 0, 0.41);
+}
+.shadow-2{
+    box-shadow: inset -6px -6px 12px 0px rgba(100, 94, 94, 0.5), inset 6px 6px 13px 0px rgba(0, 0, 0, 0.78);
+}
