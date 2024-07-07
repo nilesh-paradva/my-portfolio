@@ -22,11 +22,11 @@
 
     <!-- sidebar-offcanvace -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header bg-primary d-flex align-items-center justify-content-center">
-            <i class="fa-x fs-1 px-4 py-2 rounded-3 btn-2 d-flex" data-bs-dismiss="offcanvas" style="color: white;" onMouseOver="this.style.color='#ff3'" onMouseOut="this.style.color='#fff'"></i>
-        </div>
         <div class="offcanvas-body bg-primary">
             <div class="col-12">
+                <div class="offcanvas-header bg-primary d-flex align-items-center justify-content-center">
+                    <i class="fa-x fs-1 px-4 py-2 rounded-3 btn-2 d-flex" data-bs-dismiss="offcanvas" style="color: white;" onMouseOver="this.style.color='#ff3'" onMouseOut="this.style.color='#fff'"></i>
+                </div>
                 <div class="all-section-wripper p-5 shadow-2 "
                     style="border: 30px solid rgb( 36, 40, 50); border-radius: 45px;">
                     <div class="menu-list">
@@ -71,13 +71,13 @@
     </header>
     <main>
         <div class="all-section-wripper shadow-2 py-5" style="border: 30px solid rgb( 36, 40, 50); border-radius: 45px;">
-            <section class="home py-5">
+            <section class="home">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col col-lg-12 d-flex align-items-center justify-content-center">
                             <div class="col col-lg-7">
                                 <div class="home-dis text-center d-flex align-items-center justify-content-center flex-column">
-                                    <div class="my-img rounded-5 overflow-hidden shadow mb-3 col-6">
+                                    <div class="my-img rounded-5 overflow-hidden shadow mb-3 col col-md-6">
                                         <img src="images/my-img/img-1.jpg" alt="my-img" class="img-fluid">
                                     </div>
                                     <div class="my-dis">
@@ -102,7 +102,7 @@
                     </div>
                 </div>
             </section>
-            <section id="about" class="py-5">
+            <section id="about" class="pt-5">
                 <div class="container">
                     <div class="row align-items-center row-gap-5">
                         <div class="col-12 col-lg-4">
@@ -112,7 +112,7 @@
                         </div>
                         <div class="col-12 col-lg-8">
                             <div class="about-dis text-center d-flex justify-content-center flex-column ">
-                                <h2 class="h1 text-white mb-4">About me</h2>
+                                <h2 class="h1 text-warning mb-4">About me</h2>
                                 <p class="text-white mb-4">I am actively seeking opportunities to apply my acquired skills and knowledge to real-world projects. My educational background has equipped me with a solid foundation in AI and ML algorithms, data analysis, and programming languages such as Python. Additionally, I have gained practical experience through hands-on projects, both independently and collaboratively.</p>
                             </div>
                             <div class="more-btn text-center">
@@ -123,11 +123,12 @@
                 </div>
             </section>
             <section id="projects"></section>
-            <section id="languages" class="py-5">
+            <section id="languages" class="pt-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 d-flex align-items-center justify-content-center">
                             <div class="col-12 col-lg-9 overflow-hidden">
+                                <h2 class="h1 mb-4 text-center mb-5 text-warning">Coding Languages</h2>
                                 <swiper-container class="mySwiper d-flex align-items-center justify-content-center flex-column"  effect="cards" grab-cursor="true" style="width: 60%;">
                                     <swiper-slide class="rounded-3 bg-primary shadow-2 w-0">
                                         <ul class="m-0 p-0 list-unstyled d-flex align-items-center justify-content-evenly w-100 nav nav-pills" id="pills-tab" role="tablist">
