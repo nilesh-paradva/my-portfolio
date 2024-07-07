@@ -49,3 +49,7 @@
 .shadow-2{
     box-shadow: inset -6px -6px 12px 0px rgba(100, 94, 94, 0.5), inset 6px 6px 13px 0px rgba(0, 0, 0, 0.78);
 }
+::placeholder {
+    color: white;
+    opacity: 1;
+}
