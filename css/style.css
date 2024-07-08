@@ -2,6 +2,9 @@
     --bs-primary-rgb: 36, 40, 50;
     --bs-secondary-rgb: 36, 39, 44;
 }
+:focus-visible {
+    outline: none;
+}
 .btn-1,.btn-2,.btn-3,.btn-4,.btn-5,.btn-6,.btn-7,.my-img{
     border: 2px solid #24272c;
     box-shadow: -6px -6px 12px 0px rgba(77, 76, 82, 0.56), 6px 6px 15px 0px rgba(0, 0, 0, 0.41);
