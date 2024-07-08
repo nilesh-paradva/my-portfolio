@@ -21,7 +21,30 @@
 </head>
 
 <body class="bg-primary">
-
+    <!-- certificate-modal-1 -->
+    <div class="modal fade" id="certi-1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-primary shadow-1">
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="col-12 d-flex align-items-center justify-content-center"> -->
+                            <!-- <div class="col-8"> -->
+                                <div class="cer-4-img">
+                                    <img src="images/certificate/4.jpg" alt="certi-4" class="img-fluid">
+                                </div>
+                            <!-- </div> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
     <!-- sidebar-offcanvace -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-body bg-primary">
@@ -87,12 +110,11 @@
                                         <h2 class="cd-headline letters scale text-white text-center">
                                             <span>I’m Paradva Nilesh</span>
                                             <span class="cd-words-wrapper text-danger d-flex flex-column text-center">
-                                                <b class="is-visible fw-semibold d-inline-block">Full&nbsp;Stack&nbsp;Development</b>
+                                                <b class="is-visible fw-semibold d-inline-block">Full&nbsp;Stack&nbsp;Developer</b>
                                                 <b class="fw-semibold d-inline-block">Web&nbsp;Design</b>
                                             </span>
                                         </h2>
-                                        <p class="text-white fs-5">A highly motivated student studying Full Stack Development. Actively seeking opportunities to apply my skills and knowledge to real-world projects and contribute to the advancement of the industry.
-                                        </p>
+                                        <p class="text-white fs-5">A highly motivated student studying Full Stack Development. Actively seeking opportunities to apply my skills and knowledge to real-world projects and contribute to the advancement of the industry.</p>
                                     </div>
                                     <ul class="m-0 contact-me mt-4 p-0 d-flex align-items-center justify-content-evenly flex-column flex-md-row w-100">
                                         <li class="mb-4"><a href="javascript:void(0)" class="btn-1 d-inline-block text-decoration-none fw-bold fs-6 rounded-3 px-4 py-3 bg-primary border-secondary" style="color: white;" onMouseOver="this.style.color='#dbd7cd'" onMouseOut="this.style.color='#fff'">Learn More</a></li>
@@ -204,7 +226,7 @@
                                                 <a href="html" id="html-tab" class="d-inline-block profile nav-link active text-decoration-none fw-bold fs-6 rounded-3 border-secondary" style="color: white; background-color: #24272c;" data-bs-toggle="pill" data-bs-target="#html" role="tab" aria-controls="html" aria-selected="true">
                                                     <img src="images/certificate/3.jpg" alt="cer-3" class="img-fluid profile rounded-3">
                                                 </a>
-                                                <a href="javascript:void(0)" class="btn-1 px-4 py-2 text-decoration-none text-white fs-5 rounded-3 d-inline-block">Click Me</a>
+                                                <a href="#certi-1" data-bs-toggle="modal" class="btn-1 px-4 py-2 text-decoration-none text-white fs-5 rounded-3 d-inline-block">Click Me</a>
                                             </li>
                                         </ul>
                                     </swiper-slide>
