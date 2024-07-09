@@ -6,7 +6,6 @@
     outline: none;
 }
 .slick-next,.slick-prev{
-    /* display: none; */
     opacity: 0;
     visibility: hidden;
 }
