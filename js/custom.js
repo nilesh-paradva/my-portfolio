@@ -1,5 +1,5 @@
 $(window).on('load',function(){
-    $('.loader-wrepper').delay('1400').fadeOut('fast')
+    $('.loader-wrepper').fadeOut('fast')
 });
 
 $(window).scroll(function () {
