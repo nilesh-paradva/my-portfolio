@@ -25,13 +25,13 @@
 
 <body class="bg-primary" style="scroll-behavior: smooth;">
     <!-- loader -->
-    <div class="loader-wrepper">
+    <!-- <div class="loader-wrepper">
         <div class="col-12">
             <div class="loader text-center">
                 <img src="images/loader/7.gif" alt="loader" class="img-fluid">
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- certi-section-mobile-menu -->
     <div class="modal fade user-select-none" id="certi-section">
         <div class="modal-dialog modal-xl shadow-1 rounded-4 overflow-hidden">
@@ -154,7 +154,7 @@
                             <div class="text-center shadow-1 p-4 border border-1 border-warning border-bottom-0 border-top-0 rounded-3">
                                 <img src="images/project/jquery/jquery-1.png" alt="" class="img-fluid rounded-3 shadow-1">
                                 <div class="link d-flex align-items-center justify-content-evenly mt-3">
-                                    <a href="javascript:void(0)" class="text-decoration-none btn-1" style="border-radius: 50%;">
+                                    <a href="" class="text-decoration-none btn-1" style="border-radius: 50%;">
                                         <img src="images/link-photo/google.png" alt="google" class="img-fluid profile d-inline-block rounded-3" style="--width:50px">
                                     </a>
                                     <p class="text-white fs-5 fw-bold">Admin Panel</p>
@@ -431,7 +431,7 @@
                                                    <div class="text-center shadow-1 p-4 border border-1 border-warning border-bottom-0 border-top-0 rounded-3">
                                                        <img src="images/project/jquery/jquery-1.png" alt="" class="img-fluid rounded-3 shadow-1">
                                                        <div class="link d-flex align-items-center justify-content-evenly mt-3">
-                                                           <a href="javascript:void(0)" class="text-decoration-none btn-1" style="border-radius: 50%;">
+                                                           <a href="https://nilesh-paradva.github.io/ecommerce-admin-panel/" class="text-decoration-none btn-1" style="border-radius: 50%;">
                                                                <img src="images/link-photo/google.png" alt="google" class="img-fluid profile d-inline-block rounded-3" style="--width:60px">
                                                            </a>
                                                            <p class="text-white fs-5 fw-bold">Admin Panel</p>
@@ -647,44 +647,44 @@
                                 <img src="images/contact/contact-3.png" alt="contact-image" class="img-fluid">
                             </div>
                             <div class="submit-btn text-center mt-5 d-none d-lg-block">
-                                <a href="javascript:void(0)" type="Submit" class="btn-1 d-inline-block text-decoration-none fs-5 fw-bold text-warning rounded-3 px-4 py-2">Submit</a>
+                                <a href="javascript:void(0)" onclick="submitForm()" class="btn-1 d-inline-block text-decoration-none fs-5 fw-bold text-warning rounded-3 px-4 py-2">Submit</a>
                             </div>
                         </div>
                         <div class="col-12 col-lg-8">
                             <form class="row g-4 needs-validation" novalidate>
                                 <div class="col-12 col-lg-6">
                                     <div class="name">
-                                        <label for="name" class="mb-2 fs-5 text-warning">Your Name*</label>
+                                        <label for="name" class="mb-2 fs-5 text-warning">Your Name*</label><span class="ps-3 fw-bold" id="error-name" style="height: 20px;"></span>
                                         <input type="text" placeholder="Enter Your Name" id="name" class="py-3 text-white px-4 w-100 rounded-3 border-0 bg-primary shadow-2" style="outline: none;" required>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-6">
                                     <div class="phone-number">
-                                        <label for="p-number" class="mb-2 fs-5 text-warning">Phone Number*</label>
+                                        <label for="p-number" class="mb-2 fs-5 text-warning">Phone Number*</label><span class="ps-3 fw-bold" id="error-number" style="height: 20px;"></span>
                                         <input type="number" placeholder="Enter Your Mobile Number" id="p-number" class="py-3 text-white px-4 w-100 rounded-3 border-0 bg-primary shadow-2" style="outline: none;">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="email">
-                                        <label for="email" class="mb-2 fs-5 text-warning">Your Email*</label>
+                                        <label for="email" class="mb-2 fs-5 text-warning">Your Email*</label><span class="ps-3 fw-bold" id="error-email" style="height: 20px;"></span>
                                         <input type="Email" placeholder="Enter Your Email" id="email" class="py-3 text-white px-4 w-100 rounded-3 border-0 bg-primary shadow-2" style="outline: none;">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="subject">
-                                        <label for="subject" class="mb-2 fs-5 text-warning">Subjects*</label>
+                                        <label for="subject" class="mb-2 fs-5 text-warning">Subjects*</label><span class="ps-3 fw-bold" id="error-subject" style="height: 20px;"></span>
                                         <input type="text" placeholder="Enter Your Subjects" id="subject" class="py-3 text-white px-4 w-100 rounded-3 border-0 bg-primary shadow-2" style="outline: none;">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="subject">
-                                        <label for="massage" class="mb-2 fs-5 text-warning">Massage*</label>
+                                        <label for="massage" class="mb-2 fs-5 text-warning">Massage</label>
                                         <textarea name="massage" id="massage" placeholder="Massage*" rows="5" class="py-3 text-white px-4 w-100 rounded-3 border-0 bg-primary shadow-2" style="outline: none; resize: horizontal;"></textarea>
                                     </div>
                                 </div>
                             </form> 
                             <div class="submit-btn text-center mt-5 d-lg-none">
-                                <a href="javascript:void(0)" type="Submit" class="btn-1 d-inline-block text-decoration-none fs-5 fw-bold text-warning rounded-3 px-4 py-2">Submit</a>
+                                <a href="javascript:void(0)" onclick="submitForm()" class="btn-1 d-inline-block text-decoration-none fs-5 fw-bold text-warning rounded-3 px-4 py-2">Submit</a>
                             </div>  
                         </div>
                     </div>
