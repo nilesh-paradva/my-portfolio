@@ -38,6 +38,16 @@ $(window).scroll(function () {
     }
 });
 
+$('.js-tilt').tilt({
+    reset : true,
+    scale: 0.8
+})
+
+$('.linkdin-big').tilt({
+    reset : true,
+    scale: 1.3
+})
+
 //submit form
 const submitForm = () =>{
     event.preventDefault;
