@@ -82,7 +82,7 @@ const mobileError = () => { //mobile number validation
     if (mNumber.value < 2) {
         numberError.innerHTML = "Enter your corect Number"; numberError.style.color = "red";
     } else {
-        (/^[0-9]{10}$/.test(mNumber.value)) ? numberError.innerHTML = "valid name" : numberError.innerHTML = "invalid name";
+        (/^[0-9]{10}$/.test(mNumber.value)) ? numberError.innerHTML = "valid number" : numberError.innerHTML = "invalid number";
         numberError.style.color = /^[0-9]{10}$/.test(mNumber.value) ? "green" : "red";
     }
 }
@@ -96,9 +96,9 @@ const emailValidate = () => { //mail validation
 }
 const subjectValidate = () => { //subject validation
     if (subject.value < 2) {
-        errorSubject.innerHTML = "Enter your corect name"; errorSubject.style.color = "red";
+        errorSubject.innerHTML = "Enter your corect Subject"; errorSubject.style.color = "red";
     } else {
-        (/^[A-Za-z. ]{2,}$/.test(subject.value)) ? errorSubject.innerHTML = "valid name" : errorSubject.innerHTML = "invalid name";
+        (/^[A-Za-z. ]{2,}$/.test(subject.value)) ? errorSubject.innerHTML = "valid subject" : errorSubject.innerHTML = "invalid subject";
         errorSubject.style.color = /^[A-Za-z. ]{2,}$/.test(subject.value) ? "green" : "red";
     }
 }
